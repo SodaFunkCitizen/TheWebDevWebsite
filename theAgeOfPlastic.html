@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of The Buggles' greatest songs with interactive video and lyrics.">
+    <meta name="keywords" content="The Buggles, songs, music videos, lyrics">
+    <title>The Buggles - Songs</title>
+    <link rel="stylesheet" href="songs.css">
+    <script defer src="songs.js"></script>
+</head>
+<body>
+
+    <header class="hero">
+        <h1 class="neon-text">The Buggles - Greatest Hits</h1>
+        <p class="subheading">Click a song to watch the video and see the lyrics!</p>
+    </header>
+
+    <main>
+        <section class="song-list">
+            <h2>Select a Song</h2>
+            <ul>
+                <li onclick="playSong('W8r-tXRLazs', 'Video Killed the Radio Star', `I heard you on the wireless back in '52...`)">Video Killed the Radio Star</li>
+                <li onclick="playSong('x8XO_jZgAqM', 'Living in the Plastic Age', `I sign my name across the dotted line...`)">Living in the Plastic Age</li>
+                <li onclick="playSong('hJ3pEJyXvGk', 'Elstree', `Elstree, remember me...`)">Elstree</li>
+            </ul>
+        </section>
+
+        <section class="video-container" id="video-container">
+            <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section class="lyrics-container" id="lyrics-container">
+            <h2 id="song-title"></h2>
+            <p id="lyrics"></p>
+        </section>
+    </main>
+
+</body>
+</html>
+    
