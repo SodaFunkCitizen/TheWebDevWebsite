@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Buggles</title>
-    <link rel="stylesheet" href="style.css">
+    <title>The Buggles Fanpage</title>
+    <meta name="description" content="This webpage is the start and home page of a fanpage for the buggles">
+    <meta name="keywords" content="music,fanpage, buggles">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="imgs/radio-icon.png">  <!--Stack Overflow-->
 </head>
 <body>
     <nav class="navbar">
         <a href="RadioStar.html">Home</a>
-        <a href="theAgeOfPlastic.html">The Age of Plastic</a>
-        <a href="AdventuresInModernRecording">Adventures in Modern Recording</a>
-        <a href="#about">About</a>
+        <a href="AgeOfPlastic.html">The Age of Plastic</a>
+        <a href="theAdventuresOfModernRecording.html">Adventures in Modern Recording</a>
+        <a href="About.html">About</a>
     </nav>
     <header class="hero">
         <h1 class="neon-text">The Buggles</h1>
@@ -24,11 +27,11 @@
         <section class="carousel">
             <section  class="carousel-item">
                 <img src="imgs/vhs-icon.png" alt="VHS Tape">
-                <p class="carousel-text">The dawn of music videos</p>
+                <p  class="carousel-text">The dawn of music videos</p>
             </section >
             <section  class="carousel-item">
                 <img src="imgs/retro-tv.png" alt="Retro TV">
-                <p class="carousel-text">Television becomes the new radio</p>
+                <p  class="carousel-text">Television becomes the new radio</p>  
             </section >
             <section  class="carousel-item">
                 <img src="imgs/radio-icon.png" alt="Old Radio">
@@ -38,15 +41,15 @@
     </section>
 
     <section class="music">
-        <h2 class="section-title">Radio vs. Video</h2>
+        <h2 class="section-title">Radio or Video</h2>
         <section class="media-player">
             <section class="radio">
                 <h3>Radio</h3>
-                <button class="play-button">Play Radio</button>
+                <button class="play-button" style="text-decoration-line: none;"><a href="https://irishradiolive.com/">Play Radio</a></button>
             </section>
             <section class="video">
                 <h3>Video</h3>
-                <button class="play-button">Play Video</button>
+                <button class="play-button" style="text-decoration-line: none;"><a href="https://www.youtube.com/watch?v=c1LhHcPyQ5M&list=OLAK5uy_kDa9MV3a5Uqdp-YrjcdaiizTW3JVaUaxk">Play Video</a></button>
             </section>
         </section>
     </section>
@@ -56,9 +59,9 @@
         <p>Discover the iconic moment in music history when "Video Killed the Radio Star" changed everything...</p>
     </section>
 
-    <section class="contact">
+    <section class="contact"> <!--Learned from W3 Schools-->
         <h2 class="section-title">Send a Message Through the Airwaves</h2>
-        <form>
+        <form action="http://foo.com" method="get">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -72,7 +75,7 @@
         </form>
     </section>
     <footer>
-        <p>&copy; 2025 Corhy Probst . All rights reserved.</p>
+        <p>&copy; 2025. All rights reserved.</p>
     </footer>
 </body>
 </html>
